@@ -12,24 +12,17 @@ int main(void)
 
     srand(time(0));
     n = rand() - RAND_MAX / 2;
-    int len;
-
-    len = sizeof(n);
-    char str[len];
-    sprintf(str, "%d", n);
-    int i;
-
-    if (str[len] > '5')
+    if (n > 0)
     {
-        printf("Last digit of %d is %c and is greater than 5", n, str[len]);
+        printf("%d is positive", n);
     }
-    else if (str[len] == '0')
+    else if (n == 0)
     {
-        printf("Last digit of %d is %c and is 0", n, str[len]);
+        printf("%d is zero", n);
     }
-    else if (str[len] < '6' && str[len] != '0')
+    else
     {
-        printf("Last digit of %d is %c and is less than 6 and not 0", n, str[len]);
-
-        return (0);
+        printf("%d is negative", n);
     }
+    return (0);
+}
