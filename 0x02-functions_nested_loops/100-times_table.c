@@ -26,12 +26,23 @@ void print_times_table(int n)
 				{
 					printf(" %d,", i * j);
 				}
-				else
+				else if
 				{
 					printf("  %d,", i * j);
 				}
 			}
-			printf("%d\n", n * i);
+			if ((i * n) >= 100)
+			{
+				printf("%d\n", n * i);
+			}
+			else if ((i * n) >= 10)
+			{
+				printf(" %d\n", n * i);
+			}
+			else
+			{
+				printf("  %d", n * i);
+			}
 		}
 	}
 }
