@@ -26,7 +26,7 @@ void print_times_table(int n)
 				{
 					printf("  %d,", i * j);
 				}
-				else if (i == j == 0)
+				else if (i == 0 && j == 0)
 				{
 					printf("0,");
 				}
