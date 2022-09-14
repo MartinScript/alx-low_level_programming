@@ -20,28 +20,32 @@ void print_times_table(int n)
 			{
 				if ((i * j) >= 100)
 				{
-					printf("%d,", i * j);
+					printf(" %d,", i * j);
 				}
 				else if ((i * j) >= 10)
 				{
-					printf(" %d,", i * j);
+					printf("  %d,", i * j);
+				}
+				else if (i == j == 0)
+				{
+					printf("0,");
 				}
 				else
 				{
-					printf("  %d,", i * j);
+					printf("   %d,", i * j);
 				}
 			}
 			if ((i * n) >= 100)
 			{
-				printf("%d\n", n * i);
+				printf(" %d\n", n * i);
 			}
 			else if ((i * n) >= 10)
 			{
-				printf(" %d\n", n * i);
+				printf("  %d\n", n * i);
 			}
 			else
 			{
-				printf("  %d", n * i);
+				printf("   %d", n * i);
 			}
 		}
 	}
