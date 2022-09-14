@@ -7,46 +7,40 @@
  */
 void print_times_table(int n)
 {
-	int i, j;
+	int prod, mult, num;
 
-	if ((n > 15) || (n < 0))
+	if (n <= 15 && n >= 0)
 	{
-	}
-	else
-	{
-		for (i = 0; i <= n; i++)
+		for (num = 0; num <= n; ++num)
 		{
-			for (j = 0; j < n; j++)
+			_putchar(48);
+			for (mult = 1; mult <= n; ++mult)
 			{
-				if ((i * j) >= 100)
+				_putchar(',');
+				_putchar(' ');
+
+				prod = num * mult;
+
+				if (prod <= 9)
 				{
-					printf(" %d,", i * j);
+					_putchar(' ');
 				}
-				else if ((i * j) >= 10)
+				if (prod <= 99)
 				{
-					printf("  %d,", i * j);
+					_putchar(' ');
 				}
-				else if (i == 0 && j == 0)
+				if (prod >= 100)
 				{
-					printf("0,");
+					_putchar((prod / 100) + 48);
+					_putchar((prod / 10) % 10 + 48);
 				}
-				else
+				else if (prod <= 99 && prod >= 10)
 				{
-					printf("   %d,", i * j);
+					_putchar((prod / 10) + 48);
 				}
+				_putchar((prod % 10) + 48);
 			}
-			if ((i * n) >= 100)
-			{
-				printf(" %d\n", n * i);
-			}
-			else if ((i * n) >= 10)
-			{
-				printf("  %d\n", n * i);
-			}
-			else
-			{
-				printf("   %d", n * i);
-			}
+			_putchar('\n');
 		}
 	}
 }
