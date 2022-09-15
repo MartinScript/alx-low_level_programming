@@ -4,7 +4,7 @@
  * @c: checks for function input
  * Return: return 1 if uppercase else return 0
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
