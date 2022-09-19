@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1663618710 source:c:\users\collins\documents\github\strings_array_pointers\main.c
+	<stdio.h>
+	"main.h"
+
+1663605252 source:c:\users\collins\documents\github\strings_array_pointers\0-reset_to_98.c
+	"main.h"
+
+1663619899 c:\users\collins\documents\github\strings_array_pointers\main.h
+	<stdio.h>
+
+1663603254 source:c:\users\collins\documents\github\strings_array_pointers\1-swap.c
+	"main.h"
+
+1663606173 source:c:\users\collins\documents\github\strings_array_pointers\2-strlen.c
+	"main.h"
+
+1663607168 source:c:\users\collins\documents\github\strings_array_pointers\3-puts.c
+	"main.h"
+
+1663608164 source:c:\users\collins\documents\github\strings_array_pointers\4-print_rev.c
+	"main.h"
+
+1663616696 source:c:\users\collins\documents\github\strings_array_pointers\5-rev_string.c
+	"main.h"
+
+1663617163 source:c:\users\collins\documents\github\strings_array_pointers\6-puts2.c
+	"main.h"
+
+1663618026 source:c:\users\collins\documents\github\strings_array_pointers\7-puts_half.c
+	"main.h"
+
+1663618857 source:c:\users\collins\documents\github\strings_array_pointers\8-print_array.c
+	"main.h"
+
