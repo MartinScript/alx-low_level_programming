@@ -4,14 +4,13 @@
  * @str: checks for function input
  * Return: returns void
  */
-
 void puts2(char *str)
 {
-    int i;
+	int i;
 
-    for (i = 0; str[i] != '\0'; i += 2)
-    {
-        _putchar(str[i]);
-    }
-    putchar('\n');
+	for (i = 0; str[i] != '\0'; i += 2)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
