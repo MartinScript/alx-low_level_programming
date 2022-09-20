@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * swap_int - print array of integers
+ * print_array - print array of integers
  * @a: checks for function input
  * @n: checks for function input
  * Return: returns void
