@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * rev_string - reset the given value to 98
  * @s: checks for function input
@@ -7,16 +8,16 @@
 void rev_string(char *s)
 {
 	int i;
-	char a[_strlen(s)];
+	char a[900];
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		*(s + i) = s[_strlen(s) - i - 1];
+		*(s + i) = s[strlen(s) - i - 1];
 	}
 	s[i] = '\0';
-	for (i = 0;[i] != '\0'; i++)
+	for (i = 0; [i] != '\0'; i++)
 	{
 		s[i] = a[i];
 	}
-	s[_strlen(s)] = '\0';
+	s[i] = '\0';
 }
