@@ -5,7 +5,7 @@
  * Return: returns void
  */
 
-void print_rev(char *s)
+/*void print_rev(char *s)
 {
     int i;
 
@@ -13,4 +13,4 @@ void print_rev(char *s)
     {
         _putchar(s[_strlen(s) - i - 1]);
     }
-}
+}*/

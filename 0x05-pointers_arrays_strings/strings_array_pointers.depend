@@ -36,7 +36,7 @@
 1663631476 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\0-reset_to_98.c
 	"main.h"
 
-1663633179 c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\main.h
+1663675946 c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\main.h
 	<stdio.h>
 
 1663630719 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\1-swap.c
@@ -48,19 +48,23 @@
 1663630725 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\2-strlen.c
 	"main.h"
 
-1663633994 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\3-puts.c
+1663676263 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\3-puts.c
 	"main.h"
 
-1663634024 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\4-print_rev.c
+1663675628 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\4-print_rev.c
 	"main.h"
 
-1663633545 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\5-rev_string.c
+1663717903 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\5-rev_string.c
 	"main.h"
+	<stdlib.h>
+	<string.h>
 
-1663634044 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\6-puts2.c
+1663719510 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\6-puts2.c
 	"main.h"
+	<stdlib.h>
+	<string.h>
 
-1663634073 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\7-puts_half.c
+1663675662 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\7-puts_half.c
 	"main.h"
 
 1663633282 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\8-print_array.c
@@ -69,7 +73,9 @@
 1663630615 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\9-strcpy.c
 	"main.h"
 
-1663633801 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\main.c
+1663718257 source:c:\users\collins\documents\github\alx-low_level_programming\0x05-pointers_arrays_strings\main.c
 	<stdio.h>
 	"main.h"
+	<stdlib.h>
+	<time.h>
 

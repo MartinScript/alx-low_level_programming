@@ -1,6 +1,6 @@
 #include "main.h"
 
-void _puts(char *s)
+/*void _puts(char *s)
 {
     int i;
 
@@ -8,4 +8,4 @@ void _puts(char *s)
     {
         _putchar(s[i]);
     }
-}
+}*/

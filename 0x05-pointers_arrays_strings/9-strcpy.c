@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <string.h>
 /**
  * swap_int - copy strings from src to dest
  * @dest: checks for function input
@@ -14,6 +16,6 @@ char *_strcpy(char *dest, char *src)
     {
         dest[i] = src[i];
     }
-    dest[_strlen(src)] = '\0';
+    dest[i] = '\0';
     return (dest);
 }
