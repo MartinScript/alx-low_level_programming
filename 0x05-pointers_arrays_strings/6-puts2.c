@@ -10,6 +10,7 @@ void puts2(char *str)
 {
 	int i, j;
 	char *ptr_str;
+	
 	ptr_str = malloc(strlen(str) + 1);
 
 	for (i = 0, j = 0; str[i] != '\0'; i++, j = j + 2)
