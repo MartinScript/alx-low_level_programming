@@ -43,5 +43,5 @@ int main(void)
             printf("%c", password[i]);
         }
     }
-    return (password);
+    return (_atoi(password));
 }
