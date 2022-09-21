@@ -8,18 +8,18 @@
  */
 void puts2(char *str)
 {
-      int i, j;
-      char *ptr_str;
-      ptr_str = malloc(strlen(str) + 1);
+	int i, j;
+	char *ptr_str;
+	ptr_str = malloc(strlen(str) + 1);
 
-      for (i = 0, j = 0; str[i] != '\0'; i++, j = j + 2)
-      {
-            *(ptr_str + i) = str[i];
-      }
-      *(ptr_str + i) = '\0';
-      for (j = 0; j < strlen(ptr_str); j = j + 2)
-      {
-            printf("%c", *(ptr_str + j));
-      }
-      _putchar('\n');
+	for (i = 0, j = 0; str[i] != '\0'; i++, j = j + 2)
+	{
+		*(ptr_str + i) = str[i];
+	}
+	*(ptr_str + i) = '\0';
+	for (j = 0; j < (int)strlen(ptr_str); j = j + 2)
+	{
+		printf("%c", *(ptr_str + j));
+	}
+	_putchar('\n');
 }
