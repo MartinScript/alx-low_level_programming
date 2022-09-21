@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * swap_int - copy strings from src to dest
+ * _strcpy - copy strings from src to dest
  * @dest: checks for function input
  * @src: checks for function input
  * Return: returns void

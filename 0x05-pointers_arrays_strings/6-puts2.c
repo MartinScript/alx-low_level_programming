@@ -21,5 +21,5 @@ void puts2(char *str)
 	{
 		printf("%c", *(ptr_str + j));
 	}
-	_putchar('\n');
+	printf("\n");
 }
