@@ -5,12 +5,12 @@
  * Return: returns void
  */
 
-/*void print_rev(char *s)
+void print_rev(char *s)
 {
-    int i;
+      int i;
 
-    for (i = 0; *(s + i); i++)
-    {
-        _putchar(s[_strlen(s) - i - 1]);
-    }
-}*/
+      for (i = 0; *(s + i); i++)
+      {
+            _putchar(s[_strlen(s) - i - 1]);
+      }
+}
