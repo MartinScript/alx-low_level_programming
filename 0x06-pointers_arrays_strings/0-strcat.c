@@ -7,7 +7,6 @@
  * @src: function input
  * Return: char*
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int i, j, k;
