@@ -31,19 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="0-strcat.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="1-strncat.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="2-strncpy.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="main.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

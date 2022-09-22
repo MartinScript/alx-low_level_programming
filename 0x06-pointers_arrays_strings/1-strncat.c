@@ -13,14 +13,14 @@ char *_strncat(char *dest, char *src, int n)
 	int i, j, k;
 	char *ptr_str;
 
-	ptr_str = malloc(strlen(dest) + strlen(src) + 2);
+	ptr_str = malloc(strlen(dest) + n + 2);
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
 		ptr_str[i] = dest[i];
 
 	}
-	for (j = 0; src[j] != '\0'; j++)
+	for (j = 0; j < n; j++)
 	{
 		ptr_str[i + j] = src[j];
 
@@ -33,3 +33,4 @@ char *_strncat(char *dest, char *src, int n)
 	dest[k] = '\0';
 	return (dest);
 }
+
