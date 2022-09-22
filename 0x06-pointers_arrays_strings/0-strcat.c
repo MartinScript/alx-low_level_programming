@@ -1,6 +1,13 @@
 #include "main.h"
 #include <string.h>
 #include <stdlib.h>
+/**
+ * @brief 
+ * 
+ * @param dest 
+ * @param src 
+ * @return char* 
+ */
 
 char *_strcat(char *dest, char *src)
 {
