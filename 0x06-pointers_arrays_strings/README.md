@@ -19,3 +19,4 @@ Return a pointer to the resulting string dest
 
 Prototype: char *\_strncpy(char *dest, char \*src, int n);
 Your function should work exactly like strncpy
+
