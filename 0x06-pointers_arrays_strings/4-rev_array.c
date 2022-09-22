@@ -10,6 +10,7 @@ void reverse_array(int *a, int n)
 {
 	int i, j;
 	int *arr1, *arr2;
+
 	arr1 = malloc(sizeof(int) * n);
 	arr2 = malloc(sizeof(int) * n);
 
