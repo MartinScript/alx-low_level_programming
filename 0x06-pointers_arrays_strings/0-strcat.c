@@ -3,9 +3,8 @@
 #include <stdlib.h>
 /**
  * _strcat - concatenate two strings
- * 
- * @param dest 
- * @param src 
+ * @dest: function input 
+ * @src: function input
  * @return char* 
  */
 char *_strcat(char *dest, char *src)
