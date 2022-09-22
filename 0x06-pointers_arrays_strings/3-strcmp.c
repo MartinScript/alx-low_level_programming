@@ -13,5 +13,16 @@ int _strcmp(char *s1, char *s2)
 	int a;
 
 	a = strlen(s1) - strlen(s2);
-	return (a);
+	if (a > 0)
+	{
+		return(15);
+	}
+	else if (a < 0)
+	{
+		return(-15);
+	}
+	else
+	{
+		return(0);
+	}
 }
