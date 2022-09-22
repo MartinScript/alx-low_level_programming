@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * rot13 - a function that encodes a string using rot13.
- * 
  * @s: function input
- * @return char* 
+ * @return char*
  */
 char *rot13(char *s)
 {
@@ -28,5 +27,5 @@ char *rot13(char *s)
 			s[i] = s[i] + 13;
 		}
 	}
-	return(s);
+	return (s);
 }
