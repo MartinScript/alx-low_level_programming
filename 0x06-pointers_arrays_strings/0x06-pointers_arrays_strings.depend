@@ -1,41 +1,30 @@
 # depslib dependency file v1.0
-1663840496 source:c:\users\collins\documents\github\alx-tasks\0x06-pointers_arrays_strings\0-strcat.c
-	"main.h"
-	<string.h>
-	<stdlib.h>
-
-1663840117 c:\users\collins\documents\github\alx-tasks\0x06-pointers_arrays_strings\main.h
-
-1663840102 source:c:\users\collins\documents\github\alx-tasks\0x06-pointers_arrays_strings\main.c
-	<stdio.h>
-	<stdlib.h>
-
-1663787290 source:c:\users\collins\documents\github\alx-tasks\0x06-pointers_arrays_strings\1-strncat.c
-	"main.h"
-
-1663787375 source:c:\users\collins\documents\github\alx-tasks\0x06-pointers_arrays_strings\2-strncpy.c
+1663857670 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.c
 	"main.h"
 	<stdio.h>
 
-1663846090 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\1-strncat.c
+1663857022 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\0-strcat.c
 	"main.h"
 	<string.h>
 	<stdlib.h>
 
-1663850856 c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.h
+1663856877 c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.h
 
-1663851263 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.c
-	"main.h"
-	<stdio.h>
-	<string.h>
-
-1663844089 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\0-strcat.c
+1663857073 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\1-strncat.c
 	"main.h"
 	<string.h>
 	<stdlib.h>
 
-1663850106 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\2-strncpy.c
+1663857135 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\2-strncpy.c
 	"main.h"
 	<string.h>
 	<stdlib.h>
+
+1663857221 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\3-strcmp.c
+	"main.h"
+	<string.h>
+	<stdlib.h>
+
+1663857266 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\4-rev_array.c
+	"main.h"
 
