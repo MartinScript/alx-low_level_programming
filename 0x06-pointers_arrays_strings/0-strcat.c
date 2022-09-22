@@ -9,7 +9,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int i, j, k;
 	char *ptr_str;
 
 	ptr_str = malloc(strlen(dest) + strlen(src) + 2);
@@ -25,5 +25,10 @@ char *_strcat(char *dest, char *src)
 
 	}
 	ptr_str[i + j] = '\0';
-	return (ptr_str);
+	for (k = 0; ptr_str[k] != '\0'; k++)
+	{
+		dest[k] = ptr_str[k];
+	}
+	dest[k] = '\0';
+	return (dest);
 }
