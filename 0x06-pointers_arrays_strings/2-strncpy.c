@@ -1,6 +1,13 @@
 #include "main.h"
-#include <stdio.h>
-
+#include <string.h>
+#include <stdlib.h>
+/**
+ * _strncpy - concatenate two strings
+ * @dest: function input
+ * @src: function input
+ * @n: function input
+ * Return: char*
+ */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
