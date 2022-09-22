@@ -11,8 +11,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-    int i, j;
+	int i, j;
 	char *ptr_str;
+	
 	ptr_str = malloc(strlen(dest) + strlen(src) + 2);
 
 	for (i = 0; dest[i] != '\0'; i++)
