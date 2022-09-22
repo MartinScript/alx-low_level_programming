@@ -24,9 +24,10 @@
 
 1663850856 c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.h
 
-1663846672 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.c
+1663851263 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.c
 	"main.h"
 	<stdio.h>
+	<string.h>
 
 1663844089 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\0-strcat.c
 	"main.h"
