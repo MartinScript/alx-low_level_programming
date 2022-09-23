@@ -3,14 +3,14 @@
  * leet - a function that encodes a string into 1337. 
  * 
  * @str: function input
- * @return char* 
+ * Return: char* 
  */
 
 char *leet(char *str)
 {
-	char arr1[] = {'A', 'E', 'O', 'T', 'L'};
-	char arr2[] = {'a', 'e', 'o', 't', 'l'};
-	char arr3[] = {'4', '3', '0', '7', '1'};
+	char arr1[5] = {'A', 'E', 'O', 'T', 'L'};
+	char arr2[5] = {'a', 'e', 'o', 't', 'l'};
+	char arr3[5] = {'4', '3', '0', '7', '1'};
 	int i, j;
 
 	for (i = 0; str[i] != '\0'; i++)
