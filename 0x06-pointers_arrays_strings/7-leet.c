@@ -6,22 +6,23 @@
  * Return: char* 
  */
 
-char *leet(char *str)
+char *leet(char *s)
 {
-	char arr1[5] = {'A', 'E', 'O', 'T', 'L'};
-	char arr2[5] = {'a', 'e', 'o', 't', 'l'};
-	char arr3[5] = {'4', '3', '0', '7', '1'};
-	int i, j;
+	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; j <= 5; j++)
-		{
-			if (str[i] == arr1[j] || str[i] == arr2[j])
-			{
-				str[i] == arr3[j];
-			}
-		}
+		while (s[i] == 'a' || s[i] == 'A')
+			s[i] = '4';
+		while (s[i] == 'e' || s[i] == 'E')
+			s[i] = '3';
+		while (s[i] == 'o' || s[i] == 'O')
+			s[i] = '0';
+		while (s[i] == 't' || s[i] == 'T')
+			s[i] = '7';
+		while (s[i] == 'l' || s[i] == 'L')
+			s[i] = '1';
 	}
-	return(str);
+
+	return (s);
 }
