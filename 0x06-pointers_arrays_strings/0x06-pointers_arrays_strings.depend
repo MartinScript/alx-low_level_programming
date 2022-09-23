@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1663885673 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.c
+1663888953 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.c
 	"main.h"
 	<stdio.h>
 
@@ -8,7 +8,7 @@
 	<string.h>
 	<stdlib.h>
 
-1663888664 c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.h
+1663890242 c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.h
 	<stdio.h>
 
 1663857073 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\1-strncat.c
