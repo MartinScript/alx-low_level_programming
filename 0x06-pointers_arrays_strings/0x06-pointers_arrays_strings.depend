@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1663888953 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.c
+1663892556 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\main.c
 	"main.h"
 	<stdio.h>
 
@@ -21,7 +21,7 @@
 	<string.h>
 	<stdlib.h>
 
-1663879109 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\3-strcmp.c
+1663892516 source:c:\users\collins\documents\github\alx-low_level_programming\0x06-pointers_arrays_strings\3-strcmp.c
 	"main.h"
 	<string.h>
 	<stdlib.h>
