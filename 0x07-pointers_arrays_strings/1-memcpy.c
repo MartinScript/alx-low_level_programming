@@ -1,5 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * _memcpy - 
+ * @dest: function input
+ * @src: function input
+ * @n: function input
+ * Return: char* 
+ */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
