@@ -5,7 +5,7 @@
  * @dest: function input
  * @src: function input
  * @n: function input
- * Return: char* 
+ * Return: char*
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
@@ -13,9 +13,9 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	char *pszDest = (char *)dest;
 	const char *pszSource = (const char *)src;
 
-	if((pszDest != NULL) && (pszSource != NULL))
+	if ((pszDest != NULL) && (pszSource != NULL))
 	{
-		while(n)
+		while (n)
 		{
 			*(pszDest++) = *(pszSource++);
 			--n;
