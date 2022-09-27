@@ -1,5 +1,5 @@
-#ifndef MAIN_H_INCLUDED
-#define MAIN_H_INCLUDED
+#ifndef MAIN_H_
+#define MAIN_H_
 #include <stdio.h>
 
 int _putchar(char c);
@@ -13,4 +13,4 @@ void set_string(char **s, char *to);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 
-#endif // MAIN_H_INCLUDED
+#endif /*MAIN_H_*/
