@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int main()
-{
-    #include "main.h"
-
+#include "main.h"
 /**
  * main - check the code
  *
@@ -12,7 +8,6 @@ int main()
  */
 int main(void)
 {
-    _puts_recursion("Puts with recursion");
-    return (0);
-}
+	_puts_recursion("Puts with recursion");
+	return (0);
 }
