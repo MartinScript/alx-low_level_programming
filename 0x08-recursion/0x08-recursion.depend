@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1664375302 source:c:\users\collins\documents\github\alx-low_level_programming\0x08-recursion\main.c
+1664377729 source:c:\users\collins\documents\github\alx-low_level_programming\0x08-recursion\main.c
 	<stdio.h>
 	<stdlib.h>
 	"main.h"
@@ -9,9 +9,12 @@
 1664374016 source:c:\users\collins\documents\github\alx-low_level_programming\0x08-recursion\0-puts_recursion.c
 	"main.h"
 
-1664375306 source:c:\users\collins\documents\github\alx-low_level_programming\0x08-recursion\2-strlen_recursion.c
+1664377347 source:c:\users\collins\documents\github\alx-low_level_programming\0x08-recursion\2-strlen_recursion.c
 	"main.h"
 
 1664372434 source:c:\users\collins\documents\github\alx-low_level_programming\0x08-recursion\_putchar.c
 	<unistd.h>
+
+1664377959 source:c:\users\collins\documents\github\alx-low_level_programming\0x08-recursion\3-factorial.c
+	"main.h"
 
