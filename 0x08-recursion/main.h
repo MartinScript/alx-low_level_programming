@@ -5,6 +5,8 @@ int _putchar(char c);
 int halp(int c, int i);
 int _sqrt(int x, int i);
 int hai(int n, int d);
+int my_pal(char *s, int l);
+int get_length(char *s);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
