@@ -8,6 +8,9 @@
  */
 int main(void)
 {
-	_puts_recursion("Puts with recursion");
-	return (0);
+    int n;
+
+    n = _strlen_recursion("Corbin Coleman");
+    printf("%d\n", n);
+    return (0);
 }
