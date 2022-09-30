@@ -9,8 +9,14 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
-
-	printf("%s\n", argv[0]);
-	return (0);
+	if (argv)
+	{
+		printf("%d\n", (int)argv[1] * (int)argv[2]);
+		return (0);
+	}
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 }
