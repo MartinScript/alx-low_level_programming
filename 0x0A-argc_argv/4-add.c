@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - multiply 2 numbers passed to main, or Error
  * @argc: argument count
@@ -15,7 +16,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			sum = sum + argv[i];
+			sum = sum + atoi(argv[i]);
 		}
 		printf("%d\n", sum);
 		return (0);
