@@ -8,16 +8,21 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
+	int i, sum;
+	sum = 0;
 
-	if (argv[1] && argv[2])
+	if (argv[i] >= 48 && argv[i] <= 57)
 	{
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		for (i = 1; i < argc; i++)
+		{
+			sum = sum + argv[i];
+		}
+		printf("%d\n", sum);
 		return (0);
 	}
 	else
 	{
 		printf("Error\n");
+		return (1);
 	}
-	return (1);
 }
