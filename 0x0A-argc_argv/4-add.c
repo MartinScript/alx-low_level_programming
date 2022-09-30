@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int i, sum;
 	sum = 0;
 
-	if (argv[i] >= 48 && argv[i] <= 57)
+	if (argv[i] >= '0' && argv[i] <= '9')
 	{
 		for (i = 1; i < argc; i++)
 		{
