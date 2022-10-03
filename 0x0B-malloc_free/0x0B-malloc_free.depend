@@ -1,12 +1,17 @@
 # depslib dependency file v1.0
-1664800711 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\0-create_array.c
+1664837457 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\0-create_array.c
 	"main.h"
 	<stdlib.h>
 
-1664835403 c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\main.h
+1664837963 c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\main.h
 
-1664835282 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\main.c
+1664838142 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\main.c
 	"main.h"
 	<stdio.h>
 	<stdlib.h>
+
+1664837930 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\1-strdup.c
+	"main.h"
+	<stdlib.h>
+	<string.h>
 
