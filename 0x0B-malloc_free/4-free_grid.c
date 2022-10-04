@@ -12,7 +12,7 @@ void free_grid(int **grid, int height)
 {
 	int i = 0;
 	(void)height;
-	// Not working
+
 	if (grid == NULL)
 		return;
 	while (grid[i] != NULL)
