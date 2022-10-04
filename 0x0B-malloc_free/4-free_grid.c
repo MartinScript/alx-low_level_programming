@@ -7,15 +7,9 @@
  */
 void free_grid(int **grid, int height)
 {
-	int i = 0;
-	(void)height;
+	int i;
 
-	if (grid == NULL)
-		return;
-	while (grid[i] != NULL)
-	{
-		free(*(grid + i));
-		i++;
-	}
+	for (i = 0; i < height; i++)
+		free(grid[i]);
 	free(grid);
 }
