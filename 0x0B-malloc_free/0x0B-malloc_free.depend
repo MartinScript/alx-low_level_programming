@@ -5,16 +5,17 @@
 
 1664837963 c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\main.h
 
-1664842294 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\main.c
+1664844689 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\main.c
+	"main.h"
 	<stdio.h>
 	<stdlib.h>
 
-1664838769 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\1-strdup.c
+1664843885 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\1-strdup.c
 	"main.h"
 	<stdlib.h>
 	<string.h>
 
-1664841980 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\2-str_concat.c
+1664843232 source:c:\users\collins\documents\github\alx-low_level_programming\0x0b-malloc_free\2-str_concat.c
 	"main.h"
 	<stdlib.h>
 	<string.h>
