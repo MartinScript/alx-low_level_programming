@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1665089703 source:c:\users\collins\documents\github\alx-low_level_programming\0x0c-more_malloc_free\0-malloc_checked.c
+	"main.h"
+	<stdlib.h>
+
+1665089197 c:\users\collins\documents\github\alx-low_level_programming\0x0c-more_malloc_free\main.h
+
+1665089254 source:c:\users\collins\documents\github\alx-low_level_programming\0x0c-more_malloc_free\1-string_nconcat.c
+
+1665089330 source:c:\users\collins\documents\github\alx-low_level_programming\0x0c-more_malloc_free\100-realloc.c
+
+1665089273 source:c:\users\collins\documents\github\alx-low_level_programming\0x0c-more_malloc_free\2-calloc.c
+
+1665089309 source:c:\users\collins\documents\github\alx-low_level_programming\0x0c-more_malloc_free\3-array_range.c
+
+1665089925 source:c:\users\collins\documents\github\alx-low_level_programming\0x0c-more_malloc_free\main.c
+	"main.h"
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+
