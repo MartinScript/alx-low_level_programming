@@ -5,9 +5,8 @@
  * @s1: first string
  * @s2: second string
  * @n: number of bytes to be copied
- * Return char*
+ * Return: char*
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
