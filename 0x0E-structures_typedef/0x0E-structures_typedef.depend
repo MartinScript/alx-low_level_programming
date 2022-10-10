@@ -3,8 +3,7 @@
 	<stdio.h>
 	"dog.h"
 
-1665442599 c:\users\collins\documents\github\alx-low_level_programming\0x0e-structures_typedef\dog.h
-	<stdlib.h>
+1665445192 c:\users\collins\documents\github\alx-low_level_programming\0x0e-structures_typedef\dog.h
 
 1665402103 source:c:\users\collins\documents\github\alx-low_level_programming\0x0e-structures_typedef\2-print_dog.c
 	"dog.h"
@@ -19,7 +18,7 @@
 	"dog.h"
 	<stdlib.h>
 
-1584205420 source:c:\users\collins\documents\github\alx-low_level_programming\0x0e-structures_typedef\main.c
+1665445136 source:c:\users\collins\documents\github\alx-low_level_programming\0x0e-structures_typedef\main.c
 	<stdio.h>
-	<stdlib.h>
+	"dog.h"
 
