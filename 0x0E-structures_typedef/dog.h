@@ -1,8 +1,6 @@
-#ifndef DOG
+#ifndef DOG_H_
 
-#define DOG
-
-#include <stdlib.h>
+#define DOG_H_
 
 /**
  *
@@ -40,6 +38,6 @@ dog_t *new_dog(char *name, float age, char *owner);
 
 void free_dog(dog_t *d);
 
-#endif
+#endif /* DOG_H_ */
 
 
