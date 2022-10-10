@@ -1,5 +1,5 @@
-#ifndef DOG_H_
-#define DOG_H_
+#ifndef DOG_H_INCLUDED
+#define DOG_H_INCLUDED
 #include <stdlib.h>
 /**
  * struct dog- a structure of dog.
@@ -20,4 +20,4 @@ void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
-#endif /*DOG_H_*/
+#endif /*DOG_H_INCLUDED*/
