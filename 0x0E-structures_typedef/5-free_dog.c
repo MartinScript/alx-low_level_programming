@@ -10,6 +10,7 @@ void free_dog(dog_t *d)
 	{
 		d->name = NULL;
 		d->owner = NULL;
+		d->age = 0;
 		free(d);
 	}
 	else
