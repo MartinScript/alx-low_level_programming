@@ -10,9 +10,8 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	int i;
-	int len = size / sizeof(int);
+	int len = size / sizeof(array[0]);
 
-	if (size != 0)
 	{
 		for (i = 0; i < len; i++)
 		{
