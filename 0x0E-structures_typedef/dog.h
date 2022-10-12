@@ -1,5 +1,5 @@
-#ifndef DOG_H_
-#define DOG_H_
+#ifndef MAIN
+#define MAIN
 
 /**
  ** struct dog- a structure of dog.
@@ -27,4 +27,4 @@ dog_t *new_dog(char *name, float age, char *owner);
 
 void free_dog(dog_t *d);
 
-#endif /* DOG_H_ */
+#endif /* MAIN */
