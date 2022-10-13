@@ -2,7 +2,6 @@
 #include <stdarg.h>
 /**
  * sum_them_all - a function that returns the sum of all its parameters.
- *
  * @n: number of arguments.
  * @...: variable length arguments.
  * @return int
@@ -20,5 +19,5 @@ int sum_them_all(const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 		sum = sum + va_arg(argList, int);
 	va_end(argList);
-	return sum;
+	return (sum);
 }
