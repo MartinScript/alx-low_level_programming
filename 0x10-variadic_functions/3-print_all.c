@@ -6,6 +6,7 @@
  * print_all - Function that will print anything given to it.
  * @format: Variables passed in.
  */
+
 void print_all(const char *const format, ...)
 {
 	va_list ap;
