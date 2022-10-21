@@ -1,24 +1,6 @@
 #include "lists.h"
 #include <string.h>
 /**
- * _const_strlen - Measures a string of chars.
- * @string: Pointer to string.
- *
- * Return: Number of chars.
- */
-
-int _const_strlen(const char *string)
-{
-	int i;
-
-	for (i = 0; string[i] != '\0'; i++)
-	{
-	}
-
-	return (i);
-}
-
-/**
  * add_node - Adds a new node at the beginning of a list_t list.
  * @head: Address of struct.
  * @str: Literal string passed in.
