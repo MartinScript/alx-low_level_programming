@@ -1,21 +1,19 @@
 #include "lists.h"
-#include <stdlib.h>
 
 /**
- * print_list - a function that prints all the elements of a list_t list.
- *
- * @h: pointer to struct list_t
- * Return - int
+ * free_list - Frees a list_t list.
+ * @head: Pointer to struct of type list_t.
  */
+
 void free_list(list_t *head)
 {
-	list_t *ptr, *ptr_saved;
+	list_t *temp;
 
-	for (ptr = head; ptr->next != NULL; ptr = ptr->next)
+	while (head != NULL)
 	{
-		ptr_saved = ptr->next;
-		free(ptr);
-		ptr = ptr_saved;
+		temp = head->next;
+		free(head->str);
+		free(head);
+		head = temp;
 	}
-	free(ptr);
 }
