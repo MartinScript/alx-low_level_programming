@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
- * @print_listint - a function that prints all the elements of a listint_t list.
- * @h: pointer to structure
- * Return: size_t
+ * delete_node_at_index - a function that prints all the elements of a listint_t list.
+ * @head: pointer to structure
+ * @index: index
+ * Return: int
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
@@ -33,3 +34,4 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		return (-1);
 	}
 }
+

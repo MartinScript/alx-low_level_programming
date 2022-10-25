@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * @print_listint - a function that prints all the elements of a listint_t list.
+ * sum_listint - function that returns the sum of the data of a linked list
  * @head: pointer to structure
  * Return: int
  */
@@ -21,3 +21,4 @@ int sum_listint(listint_t *head)
 	sum = sum + ptr->n;
 	return (sum);
 }
+

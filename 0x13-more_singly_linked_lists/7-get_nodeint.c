@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * @print_listint - a function that prints all the elements of a listint_t list.
+ * get_nodeint_at_index - function that returns the nth node of a listint_t linked list.
  * @head: pointer to structure
  * @index: index of node
- * Return: size_t
+ * Return: listint_t
  */
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
@@ -24,3 +24,4 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	}
 	return (NULL);
 }
+
