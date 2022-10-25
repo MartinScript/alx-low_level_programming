@@ -9,14 +9,14 @@
 size_t print_listint(const listint_t *h)
 {
 	const listint_t *ptr;
-	int count = 0;
+	size_t count = 0;
 
 	if (h == NULL)
-		return (NULL);
+		return (count);
 
 	ptr = malloc(sizeof(listint_t));
 	if (ptr == NULL)
-		return (NULL);
+		return (count);
 
 	for (ptr = h; ptr->next != NULL; ptr = ptr->next)
 	{
