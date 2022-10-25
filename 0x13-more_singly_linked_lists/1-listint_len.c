@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * @print_listint - a function that prints all the elements of a listint_t list.
+ * listint_len - function that returns the number of elements in linked list
  * @h: pointer to structure
  * Return: size_t
  */
@@ -25,3 +25,4 @@ size_t listint_len(const listint_t *h)
 	count++;
 	return (count);
 }
+

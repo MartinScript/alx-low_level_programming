@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * @print_listint - a function that prints all the elements of a listint_t list.
+ * add_nodeint_end - function that adds a new node at the end of a list.
  * @head: pointer to structure
- * @int: number
- * Return: size_t
+ * @n: number
+ * Return: listint_t
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
@@ -33,3 +33,4 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	}
 	return (new);
 }
+
