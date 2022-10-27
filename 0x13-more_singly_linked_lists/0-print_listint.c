@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * @print_listint - a function that prints all the elements of a list.
+ * print_listint - a function that prints all the elements of a list.
  * @h: pointer to structure
  * Return: size_t
  */
@@ -13,9 +13,11 @@ size_t print_listint(const listint_t *h)
 
 	if (h == NULL)
 		return (count);
+
 	ptr = malloc(sizeof(listint_t));
 	if (ptr == NULL)
 		return (count);
+
 	for (ptr = h; ptr->next != NULL; ptr = ptr->next)
 	{
 		printf("%d\n", ptr->n);

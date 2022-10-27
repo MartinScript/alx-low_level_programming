@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * @print_listint - a function that prints all the elements of a listint_t list.
+ * free_listint2 - a function that frees a listint_t list.
  * @head: pointer to structure
- * Return: size_t
+ * Return: void
  */
 
 void free_listint2(listint_t **head)
@@ -14,14 +14,12 @@ void free_listint2(listint_t **head)
 		free(head);
 	else
 	{
-		for (ptr = *head; ptr->next != NULL;)
+		while (*head != NULL)
 		{
-			ptr_saved = ptr->next;
+			ptr = (*head)->next;
 			free(ptr);
-			ptr = ptr_saved;
+			head = NULL;
 		}
-		free(ptr);
-		free(head);
-		*head = NULL;
 	}
 }
+
