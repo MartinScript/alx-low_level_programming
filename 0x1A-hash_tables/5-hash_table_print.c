@@ -6,6 +6,7 @@
 /**
  * hash_table_print - Print a hash table
  * @ht: hash table
+ * Return: void
  */
 void hash_table_print(const hash_table_t *ht)
 {
