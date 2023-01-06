@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1672965030 source:c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\main.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"hash_tables.h"
+
+1672964413 source:c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\0-hash_table_create.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"hash_tables.h"
+
+1672964548 c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\hash_tables.h
+
+1672956514 source:c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\1-djb2.c
+	<stdio.h>
+	<stdlib.h>
+	"hash_tables.h"
+
+1672956871 source:c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\2-key_index.c
+	<stdio.h>
+	<stdlib.h>
+	"hash_tables.h"
+
+1672964477 source:c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\3-hash_table_set.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"hash_tables.h"
+
+1672960901 source:c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\4-hash_table_get.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"hash_tables.h"
+
+1672964320 source:c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\5-hash_table_print.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"hash_tables.h"
+
+1672965453 source:c:\users\collins\documents\github\alx-low_level_programming\0x1a-hash_tables\6-hash_table_delete.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"hash_tables.h"
+
