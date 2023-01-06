@@ -11,15 +11,30 @@
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
+	if (size == 0)
+	{
+		return (NULL);
+	}
+
 	//Allocate a memory for the table
 	hash_table_t *table = malloc(sizeof(hash_table_t) * 1);
+	if (table == NULL)
+	{
+		return (NULL);
+	}
 
-	table->size = size;
 	//allocate memory for the size of the array
 	table->array = malloc(sizeof(hash_node_t *) * table->size);
+	if (table->array == NULL)
+	{
+		free(table);
+		return (NULL);
+	}
+
+	table->size = size;
 
 	//Initialize all array cell to NULL
-	for (int i = 0; i < table->size; i++)
+	for (int i = 0; i < size; i++)
 	{
 		table->array[i] = NULL;
 	}
