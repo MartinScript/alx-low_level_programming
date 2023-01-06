@@ -50,8 +50,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 /**
  * ht_pair - creates a new key-value pair 
  * 
- * @param key 
- * @param value 
+ * @key: key 
+ * @value: value
  * Return: new key-value pair
  */
 hash_node_t *ht_pair(const char *key, const char *value)
