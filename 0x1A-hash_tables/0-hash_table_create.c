@@ -6,7 +6,7 @@
 /**
  * hash_table_create - creates a hash table
  * @size: size of hash table to be initialized 
- * @return hash_node_t* 
+ * Return: hash_node_t* 
  */
 
 hash_table_t *hash_table_create(unsigned long int size)
