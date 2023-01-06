@@ -11,14 +11,16 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	if (key == NULL || key == '\0' || *key == '\0')
+	hash_node_t *new_pair;
+	hash_node_t *head;
+	unsigned long int index;
+	if (key == NULL || *key == '\0')
 	{
 		return (0);
 	}
 
-	hash_node_t *new_pair;
-	unsigned long int index = key_index((const unsigned char *)key, ht->size);
-	hash_node_t *head = ht->array[index];
+	index = key_index((const unsigned char *)key, ht->size);
+	head = ht->array[index];
 
 	/* if node is not empty */
 	if (head != NULL)
@@ -57,7 +59,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 hash_node_t *ht_pair(const char *key, const char *value)
 {
 	/*allocate memory for the node and its key and value */
-	hash_node_t *hash_node = malloc(sizeof(hash_node_t) * 1);
+	hash_node_t *hash_node;
+
+	hash_node = malloc(sizeof(hash_node_t) * 1);
 	hash_node->key = malloc(sizeof(strlen(key) + 1));
 	hash_node->value = malloc(sizeof(strlen(value) + 1));
 	hash_node->next = NULL;
