@@ -3,7 +3,7 @@
 #include <string.h>
 #include "hash_tables.h"
 /**
- * key_index - generates an index from a given key
+ * hash_table_set - set node
  * @ht: hash table
  * @key: key
  * @value: value

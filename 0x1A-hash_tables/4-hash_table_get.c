@@ -3,8 +3,7 @@
 #include <string.h>
 #include "hash_tables.h"
 /**
- * key_index - generates an index from a given key
- * 
+ * hash_table_get - return key-vakue pair
  * @ht: hash table
  * @key: key
  * Return: 1(success) else 0
