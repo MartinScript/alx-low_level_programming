@@ -1,45 +1,30 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * read_textfile - reads a text file and prints it to the POSIX standard output
- *
- * @filename: name of the file to be read
- * @letters: number of letters to read and print
- *
- * Return: the number of letters printed, or 0 if it failed
+ * read_textfile - read txt files and prints it in the POSIX output
+ * @filename: name of the file to open
+ * @letters:  number of letter of my input
+ * Return: number of bytes or letter
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	char *buffer;
-	int rc, wc; /* read & write character counter */
-	int fp;  /* File descriptor */
+	ssize_t num;
+	int fd;
+	char *num_bytes;
 
-	if (!filename)
+	if (filename == NULL)
 		return (0);
-
-	fp = open(filename, O_RDONLY);
-	if (fp < 0)
+	fd = open(filename, O_RDONLY);
+	if (fd == -1)
 		return (0);
-
-	buffer = malloc(letters * sizeof(char));
-	if (buffer == NULL)
+	num_bytes = malloc(letters);
+	if (num_bytes == NULL)
 		return (0);
-
-	rc = read(fp, buffer, letters);
-	if (rc < 0)
-	{
-		free(buffer);
+	num = read(fd, num_bytes, letters);
+	if (num != (int)strlen(num_bytes))
 		return (0);
-	}
-	buffer[rc] = '\0';
-	close(fp);
-
-	wc = write(STDOUT_FILENO, buffer, rc);
-	free(buffer);
-
-	if (wc < 0)
-		return (0);
-
-return (wc);
+	num_bytes[num] = '\0';
+	write(STDOUT_FILENO, num_bytes, num);
+	close(fd);
+	return (num);
 }
